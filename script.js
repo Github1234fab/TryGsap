@@ -1,33 +1,32 @@
-const timeline = gsap.timeline({
-  duration: 0,
-});
+// const timeline = gsap.timeline({
+//   // duration: 0,
+// });
 
-timeline.to(".ball", {
-  x: 270,
-  duration: 2,
- ease: "bounce",
-});
-timeline.to(".ball", {
-  y: -245,
-  duration: 2,
-ease: "elastic",
-});
-timeline.to(".ball", {
-  x: 580,
-  duraiton: 1,
-  ease: "expo",
-});
+// timeline.to(".ball", {
+//   x: 270,
+//   duration: 2,
+//   ease: "bounce",
+//   rotation: 380,
+// });
+// timeline.to(".ball", {
+//   y: -245,
+//   duration: 3,
+//   ease: "step",
+//   rotation: 90,
+// });
+// timeline
+//   .to(".ball", {
+//     x: 580,
+//     duration: 4,
+//     ease: "power1.out",
+//     rotation: 380,
+//   })
+//   .add(
+//     gsap.from(".ball_letters", {
+//       x: -350,
+//       duration: 3,
+//       rotation,
+//     }),
+//     "-=3.7"
+//   );
 
-
-gsap.to(".ball_letters", {
-  y: 250,
-  backgroundColor: "blue",
-  duration: 3,
-  delay: 4.6,
-  ease: "bounce",
-  stagger: {
-    each: 0.1,
-  
-  }
-    
-})
